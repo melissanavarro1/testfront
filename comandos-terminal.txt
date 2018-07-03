@@ -1,0 +1,21 @@
+
+* Comandos para moverse en el terminar entre los directorios:
+
+- cd <nombre-directorio> : Para entrar en un directorio
+- cd .. : retroceder 1 directorio
+- mkdir <nombre-directorio> : Crear un directorio
+- pwd : Para saber donde estás parado
+- ls -la : Para listar el contenido de un directorio
+
+
+* Comandos para trabjar con GIT desde el terminal
+
+- git init: Para que git tome control del directorio inicializando sus archivos internos (.git)
+- git clone <dirección-repositorio> : Para clonar un repositorio de tu servidor GIT.
+- git status: Para visualizar es estado de cambios en el directorio. 
+- git add <lo que vas a agregar>: Agrega todos los cambios detectados para ser incorporados posteriormente.
+                                  Si son muchos archivos, y se está seguro de que todos son necesario, se puede
+                                  reemplazar <lo que vas a agregar> por un asterisco (*).
+- git commit -m "Mensaje" : Toma todo lo agregado en git add y lo empaqueta para incorporarlo al repositorio.
+- git push : Envía todos los cambios en los commits al repositorio.
+- git pull : Descarga todos los cambios en el repositorio. 
